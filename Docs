@@ -43,7 +43,15 @@ funcionais e não-funcionais"
    não será uma ferramenta independente do site, quando o usuário criar uma conta no nosso site será solicitado para que o mesmo sincronise 
    a sua conta do site com um aplicativo, logo, tendo que baixar o aplicativo antes da sincronização.
    
-   O aplicativo funcionará na base de planos onde o usuário 
+   O aplicativo funcionará na base de "planos" onde o usuário poderá selecionar as notificações que irá receber. Os "planos" estão divididos
+   em:
+   
+   * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War- Be a Warrior);
+   * Categorias (Fps, Indie, Carros, Aviões, Estratégia, Aventura, Rpg, Mmo);
+   * Desenvolvedoras (Sony, Microsoft, EA, ubisoft, Mojang, Blizzard, Capcom, Sega);
+   * Campeonatos (E3, CBLoL, DreamHack, GDC, BGS, TGS, Pax East, Indiecade);
+   * Plataformas (PS4, PS3, Xbox One, Xbox 360, Nintendo Wii, Mobile);
+   * Grupos de jogos (Mais vendidos, lançamentos, Demos, mais jogados, mais esperados);
    
    No login do site o usuário terá que informar:
    
