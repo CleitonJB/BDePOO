@@ -1,5 +1,36 @@
-"e lá um arquivo de levantamento de requisitos, onde vocês escreverão uma descrição caprichada do aplicativo e as listas de requisitos funcionais e não-funcionais"
+"e lá um arquivo de levantamento de requisitos, onde vocês escreverão uma descrição caprichada do aplicativo e as listas de requisitos
+funcionais e não-funcionais"
 "Com base no Levantamento de requisitos, crie um MER e o diagrama de classes para o sistema"
   *Neste ponto, revise os requisitos funcionais;
   *Depois do rascunho em papel, utilize o aplicativo Cacco(do Google Drive) para criar.
   https://cacoo.com/
+  
+   O aplicativo "" vai funcionar em conjunto com um site focado em jogos e desenvolvedores dos mesmos. O site "Central Gamers" é um site 
+   voltado para para jogos de todas as plataformas, porém mais voltado para os jogos de pc devido o grande número de gamers na plataforma e
+   porém não despresará as demais plataformas. 
+   
+   Categorias do site (Separação dos jogos, plataformas, desenvolvedores, Campeonatos):
+   
+   *atuais            |   * Desktop (Windows, Linux, Mac)  |   *Fps            |  *Sony          |  *E3
+   *destaques         |   * Mobile (Celulares, Tablets)    |   *MMO            |  *Microsoft     |  *CBLoL
+   *mais jogados      |   * PS4                            |   *Rpg            |  *EA            |  *DreamHack
+   *mais comentados   |   * PS3                            |   *Estratégia     |  *Mojang        |  *Indiecade
+   *mais esperados    |   * Xbox One                       |   *Arcade         |  *Ubisoft       |  *Gamescom
+   *lançamentos       |   * Xbox 360                       |   *Multijogador   |  *Valve         |  *Pax East
+   *Franquias         |   * Nintendo Wii                   |   *Avião          |  *Konami        |  *MGL
+                      |                                    |   *Carro          |  *Capcom        |  *TGS
+                      |                                    |   *Simulador      |  *SEGA          |  *GDC
+                      |                                    |   *Indie          |  *Blizzard      |  *BGS
+                                                                               |  *Nintendo      |  *ESL Play
+                      
+   O usuário poderá criar uma conta ou não para acessar o site, mas para comprar e/ou usar recursos do site deverá ser cadastrado no mesmo.
+   Quem possuir conta no site poderá comprar jogos, adicionar amigos, receber notificações sobre (atualizações de jogos, lançamentos, dest
+   aques, desejos, mensagens de amigos, convite para jogar, mensagens, pedidos de amizades, notificação de acesso, promoções, bate-papos so
+   bre jogos, eventos, campeonatos, etc...)
+   
+   O usuário a qualquer momento poderá mudar as configurações do aplicativo para editar as informações que deseja receber. O mesmo deverá
+   rodar em todas as plataformas futuramente, mas inicialmente, apenas em mobiles (celulares(todas as fabricantes/marcas), tablets). No
+   aplicativo o usuário terá acesso ao seu perfil do site(que conterá apenas as informações obrigatórias(Nome, idade, cidade, pais e jogo
+   preferido) as demais informações será privadas a menos que o usuário deseja compartilha-las(opção que poderá ser mudada no perfil do
+   mesmo, pelo Computador e celular)).
+                         
