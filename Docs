@@ -46,14 +46,14 @@ funcionais e não-funcionais"
    O aplicativo funcionará na base de "planos" onde o usuário poderá selecionar as notificações que irá receber. Os "planos" estão divididos
    em:
    
-   * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War- Be a Warrior);
-   * Categorias (Fps, Indie, Carros, Aviões, Estratégia, Aventura, Rpg, Mmo);
-   * Desenvolvedoras (Sony, Microsoft, EA, ubisoft, Mojang, Blizzard, Capcom, Sega);
-   * Campeonatos (E3, CBLoL, DreamHack, GDC, BGS, TGS, Pax East, Indiecade);
-   * Plataformas (PS4, PS3, Xbox One, Xbox 360, Nintendo Wii, Mobile);
-   * Grupos de jogos (Mais vendidos, lançamentos, Demos, mais jogados, mais esperados);
+   * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War-Be a Warrior, etc);
+   * Categorias (Fps, Indie, Carros, Aviões, Estratégia, Aventura, Rpg, Mmo, etc);
+   * Desenvolvedoras (Sony, Microsoft, EA, ubisoft, Mojang, Blizzard, Capcom, Sega, etc);
+   * Campeonatos (E3, CBLoL, DreamHack, GDC, BGS, TGS, Pax East, Indiecade, etc);
+   * Plataformas (PS4, PS3, Xbox One, Xbox 360, Nintendo Wii, Mobile, etc);
+   * Grupos de jogos (Mais vendidos, lançamentos, Demos, mais jogados, mais esperados, etc);
    
-   No login do site o usuário terá que informar:
+   Na hora de se cadastrar no site o usuário terá que informar:
    
    * Nome do usuário no site
    * Senha da conta
@@ -62,6 +62,14 @@ funcionais e não-funcionais"
    * Confirmação do E-mail
    * Tipo de plano
    
+   E para logar:
+   
+   * Nome do usuário ou o e-mail da conta
+   * Senha
+   
+   O site terá um diferencial que será um suporte para desenvolvedores de jogos que utilizam o software da Unity para criação de jogos e 
+   interessados no mesmo. No necessáriamnte o suporte virá apenas dos "funcionários" que trabalham no site mas também de uma "comunidade"
+   que será composta por membros do site, conhecedores do assunto e interesados em aprender e melhorar as suas técnicas.
    
    *Requisitos funcionais:
    
