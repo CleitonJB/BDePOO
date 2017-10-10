@@ -71,11 +71,23 @@ funcionais e não-funcionais"
    interessados no mesmo. No necessáriamnte o suporte virá apenas dos "funcionários" que trabalham no site mas também de uma "comunidade"
    que será composta por membros do site, conhecedores do assunto e interesados em aprender e/ou melhorar as suas técnicas.
    
-   *Requisitos funcionais:
+   *  Requisitos funcionais (Site):
+   
+   * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair.
+     * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc.
+   * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc..
+   
+   *  Requisitos não-funcionais (Site):
    
    * 
    
-   *Requisitos não-funcionais:
+   ..................................................
+   
+   *  Requisitos funcionais (App):
+   
+   * 
+   
+   *  Requisitos não-funcionais (App):
    
    * 
                         
