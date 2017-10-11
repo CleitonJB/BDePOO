@@ -71,23 +71,32 @@ funcionais e não-funcionais"
    interessados no mesmo. No necessáriamnte o suporte virá apenas dos "funcionários" que trabalham no site mas também de uma "comunidade"
    que será composta por membros do site, conhecedores do assunto e interesados em aprender e/ou melhorar as suas técnicas.
    
-   *  Requisitos funcionais (Site):
+   ..................................................
    
-   * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair.
-     * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc.
-   * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc..
+   *  Requisitos Funcionais (Site):
    
-   *  Requisitos não-funcionais (Site):
+   * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair;
+     * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc;
+   * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc;
+   
+   *  Requisitos Não-funcionais (Site):
    
    * 
    
    ..................................................
    
-   *  Requisitos funcionais (App):
+   *  Requisitos Funcionais (App):
    
+   * Acesso ao perfil pessoal do qual poderá compartilhas as informações que somente o mesmo desejar;
+   * Interagir com as noticias dos planos (comentar, compartilhar, curtir);
+   * Através do próprio perfil alterar o/os tipo/tipos de plano que irá receber futuramente;
+   
+   *  Requisitos Não-funcionais (App):
+   
+   * Rodar inicialmente em plataformas mobiles;
+   * Numa linguagem de programação e software que permita um grande fluxo de dados simutaneos de uma mesma conta(c# ou JavaScript(já que
+   o app terá "conexão" com o site feito em html, css e JavaScript));
    * 
    
-   *  Requisitos não-funcionais (App):
-   
-   * 
-                        
+   ..................................................
+                   
