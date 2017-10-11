@@ -43,8 +43,8 @@ funcionais e não-funcionais"
    não será uma ferramenta independente do site, quando o usuário criar uma conta no nosso site será solicitado para que o mesmo sincronise 
    a sua conta do site com um aplicativo, logo, tendo que baixar o aplicativo antes da sincronização.
    
-   O aplicativo funcionará na base de "planos" onde o usuário poderá selecionar as notificações que irá receber. Os "planos" estão divididos
-   em:
+   O aplicativo funcionará na base de "planos" onde o usuário poderá selecionar as notificações que irá receber. Os "planos"
+   estão divididos em:
    
    * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War-Be a Warrior, etc);
    * Categorias (Fps, Indie, Carros, Aviões, Estratégia, Aventura, Rpg, Mmo, etc);
@@ -73,11 +73,14 @@ funcionais e não-funcionais"
    
    ..................................................
    
+   
    *  Requisitos Funcionais (Site):
    
    * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair;
      * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc;
    * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc;
+   
+   
    
    *  Requisitos Não-funcionais (Site):
    
@@ -87,15 +90,21 @@ funcionais e não-funcionais"
    
    *  Requisitos Funcionais (App):
    
-   * Acesso ao perfil pessoal do qual poderá compartilhas as informações que somente o mesmo desejar;
-   * Interagir com as noticias dos planos (comentar, compartilhar, curtir);
+   * Acesso ao perfil pessoal do site;
+   * O usuário poderá compartilhar as informações "pessoais" do seu perfil somente se o mesmo desejar;
+   * Interagir com as noticias dos planos (comentá-las, compartilha-las, curti-las);
    * Através do próprio perfil alterar o/os tipo/tipos de plano que irá receber futuramente;
+   * Acessar o perfil de outros usuários e apenas visualizar as informações disponibibilizadas pelo mesmo;
+   * Acessar perfis de funcionários e perfis de desenvolvedores e poderá entrar em contato com os mesmo através de mensagens;
+   * Postar informações (fotos(imagens), arquivos, links);
+   
    
    *  Requisitos Não-funcionais (App):
    
    * Rodar inicialmente em plataformas mobiles;
-   * Numa linguagem de programação e software que permita um grande fluxo de dados simutaneos de uma mesma conta(c# ou JavaScript(já que
-   o app terá "conexão" com o site feito em html, css e JavaScript));
+   * Numa linguagem de programação e software que permita um grande fluxo de dados simutaneos de uma mesma conta(c# ou JavaScript
+   (já que o app terá "conexão" com o site feito em html, css e JavaScript));
+   * Obviamente o sistema deverá checar se as informações de login são compativeis, se o e-mail e senha fazem parte dos mesmo usuário;
    * 
    
    ..................................................
