@@ -5,9 +5,9 @@ funcionais e não-funcionais"
   *Depois do rascunho em papel, utilize o aplicativo Cacco(do Google Drive) para criar.
   https://cacoo.com/
   
-   O aplicativo "" vai funcionar em conjunto com um site focado em jogos e desenvolvedores dos mesmos. O site "Central Gamers" é um site 
-   voltado para para jogos de todas as plataformas, porém mais voltado para os jogos de pc devido o grande número de gamers na plataforma e
-   porém não despresará as demais plataformas. 
+   O aplicativo "" vai funcionar em conjunto com um site focado em jogos e desenvolvedores dos mesmos. O site "Central Gamers" é
+   um site voltado para para jogos de todas as plataformas, porém mais voltado para os jogos de pc devido o grande número de 
+   gamers na plataforma e porém não despresará as demais plataformas. 
    
    Categorias do site (Separação dos jogos, plataformas, desenvolvedores, Campeonatos):
    
@@ -25,19 +25,18 @@ funcionais e não-funcionais"
                       |                                    |   *Carro            |  *Capcom            |  *TGS           |
                       |                                    |   *Simulador        |  *SEGA              |  *GDC           |
                       |                                    |   *Indie            |  *Blizzard          |  *BGS           |
-                                                                                 |  *Nintendo          |  *ESL Play      |
+                      |                                    |                     |  *Nintendo          |  *ESL Play      |
                       
-   O usuário poderá criar uma conta ou não para acessar o site, mas para comprar e/ou usar recursos do site deverá ser cadastrado no 
-   mesmo. Quem possuir conta no site poderá comprar jogos, adicionar amigos, receber notificações sobre (atualizações de jogos, lançamentos, 
-   destaques, desejos, mensagens de amigos, convite para jogar, mensagens, pedidos de amizades, notificação de acesso, promoções, 
-   bate-papos sobre jogos, eventos, campeonatos, etc...)
+   O usuário poderá criar uma conta ou não para acessar o site, mas para comprar e/ou usar recursos do site deverá ser cadastrado
+   no mesmo. Quem possuir conta no site poderá comprar jogos, adicionar amigos, receber notificações sobre (atualizações de jogos, 
+   lançamentos, destaques, desejos, mensagens de amigos, convite para jogar, mensagens, pedidos de amizades, notificação de acesso, 
+   promoções,bate-papos sobre jogos, eventos, campeonatos, etc...)
    
-   O usuário a qualquer momento poderá mudar as configurações do aplicativo para editar as informações que deseja receber. O mesmo deverá
-   rodar em todas as plataformas futuramente, mas inicialmente, apenas em mobiles (celulares(todas as fabricantes/marcas), tablets). No
-   aplicativo o usuário terá acesso ao seu perfil do site(que conterá apenas as informações obrigatórias(Nome, idade, cidade, pais e jogo
-   preferido) as demais informações será privadas a menos que o usuário deseja compartilha-las(esta opção poderá ser alterada(mostrar ou 
-   não-mostrar) no perfil do
-   mesmo, pelo Computador e pelo celular)).
+   O usuário a qualquer momento poderá mudar as configurações do aplicativo para editar as informações que deseja receber. O mesmo
+   deverá rodar em todas as plataformas futuramente, mas inicialmente, apenas em mobiles (celulares(todas as fabricantes/marcas), 
+   tablets). No aplicativo o usuário terá acesso ao seu perfil do site(que conterá apenas as informações obrigatórias(Nome, idade,
+   cidade, pais e jogo preferido) as demais informações será privadas a menos que o usuário deseja compartilha-las(esta opção 
+   poderá ser alterada(mostrar ou não-mostrar) no perfil do mesmo, pelo Computador e pelo celular)).
    
    O aplicativo será uma ferramenta de complemento, manutenção, administração e acesso rápido da sua conta no site "Central Gamers". Ele 
    não será uma ferramenta independente do site, quando o usuário criar uma conta no nosso site será solicitado para que o mesmo sincronise 
@@ -53,60 +52,91 @@ funcionais e não-funcionais"
    * Plataformas (PS4, PS3, Xbox One, Xbox 360, Nintendo Wii, Mobile, etc);
    * Grupos de jogos (Mais vendidos, lançamentos, Demos, mais jogados, mais esperados, etc);
    
-   Na hora de se cadastrar no site o usuário terá que informar:
+   ..............................................................................................................................
    
-   * Nome do usuário no site
-   * Senha da conta
-   * Confirmação da senha
-   * E-mail do usuário
-   * Confirmação do E-mail
-   * Tipo de plano
+   * Na hora de se cadastrar no site o usuário terá que informar:
    
-   E para logar:
+     * Nome do usuário no site
+     * Senha da conta
+     * Confirmação da senha
+     * E-mail do usuário
+     * Confirmação do E-mail
+     * Tipo de plano
    
-   * Nome do usuário ou o e-mail da conta
-   * Senha
+   ..............................................................................................................................
    
-   O site terá um diferencial que será um suporte para desenvolvedores de jogos que utilizam o software da Unity para criação de jogos e 
-   interessados no mesmo. No necessáriamnte o suporte virá apenas dos "funcionários" que trabalham no site mas também de uma "comunidade"
-   que será composta por membros do site, conhecedores do assunto e interesados em aprender e/ou melhorar as suas técnicas.
+   * E para logar:
    
-   ..................................................
+     * Nome do usuário ou o e-mail da conta
+     * Senha
+   
+   ..............................................................................................................................
+   
+   * Perfil:
+   
+     * 
+     
+   ..............................................................................................................................
+   
+   O site terá uma "comunidade" ou "fórum" no qual os usuários dos site e funcionários poderam se comunicar e postar dúvidas e 
+   pedir ajuda para projetos e/ou projetos próprios. Poderá ser postado tanto scripts quanto videos e imagens (seria bom se fosse
+   feito um "sistema" de criação de scripts dentro do site, sem compilação, apenas o reconhecimento de linguagens de programação
+   (especificamente JavaScript e C#) com o reconhecimento de variaveis, funções, bibliotecas, etc, para que pareça com um compilador
+   da própria linguagem).
+   
+   O site terá um diferencial que será um suporte para desenvolvedores de jogos que utilizam o software da Unity para criação de 
+   jogos e interessados no mesmo. No necessáriamnte o suporte virá apenas dos "funcionários" que trabalham no site mas também de 
+   uma "comunidade" que será composta por membros do site, conhecedores do assunto e interesados em aprender e/ou melhorar as suas
+   técnicas.
+   
+   ..............................................................................................................................
    
    
    *  Requisitos Funcionais (Site):
    
-   * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair;
-     * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc;
-   * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc;
+     * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair;
+       * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc;
+     * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc;
    
+   * Usuário com Login:
    
+     * O usuário terá junto a conta um perfil próprio;
+     * O usuário poderá colocar foto ou não no seu perfil (Caso o mesmo no coloque foto arrumar uma imagem padrão para esse caso);
+     * O usuário poderá adicionar amigos (tanto usuários quanto funcionários);
+     * O usuário poderá disponibilizar ou não as suas informações pessoais;
+  
    
    *  Requisitos Não-funcionais (Site):
    
-   * 
+     * Rodar em computadores e notebooks inicialmente;
+       * Rodar na plataforma mobile posteriormente;
+     * Base da programação em HTML, CSS e JavaScript;
+       * Programar de forma que facilite o fluxo de dados;
+         * Evitar o uso de links externos ao conteudo do "repositório" no servidor;
    
-   ..................................................
+   
+   ..............................................................................................................................
    
    *  Requisitos Funcionais (App):
    
-   * Acesso ao perfil pessoal do site;
-   * O usuário poderá compartilhar as informações "pessoais" do seu perfil somente se o mesmo desejar;
-   * Interagir com as noticias dos planos (comentá-las, compartilha-las, curti-las);
-   * Através do próprio perfil alterar o/os tipo/tipos de plano que irá receber futuramente;
-   * Acessar o perfil de outros usuários e apenas visualizar as informações disponibibilizadas pelo mesmo;
-   * Acessar perfis de funcionários e perfis de desenvolvedores e poderá entrar em contato com os mesmo através de mensagens;
-   * Postar informações (fotos(imagens), arquivos, links) somente sobre informações sobre jogos, desenvolvedores, empresas, enventos
-   de games e gamers;
+     * Acesso ao perfil pessoal do site;
+     * O usuário poderá compartilhar as informações "pessoais" do seu perfil somente se o mesmo desejar;
+     * Interagir com as noticias dos planos (comentá-las, compartilha-las, curti-las);
+     * Através do próprio perfil alterar o/os tipo/tipos de plano que irá receber futuramente;
+     * Acessar o perfil de outros usuários e apenas visualizar as informações disponibibilizadas pelo mesmo;
+     * Acessar perfis de funcionários e perfis de desenvolvedores e poderá entrar em contato com os mesmo através de mensagens;
+     * Postar informações (fotos(imagens), arquivos, links) somente sobre informações sobre jogos, desenvolvedores, empresas, 
+     enventos de games e gamers;
    
    
    *  Requisitos Não-funcionais (App):
    
-   * Rodar inicialmente em plataformas mobiles;
-   * Numa linguagem de programação e software que permita um grande fluxo de dados simutaneos de uma mesma conta(c# ou JavaScript
-   (já que o app terá "conexão" com o site feito em html, css e JavaScript));
-   * Obviamente o sistema deverá checar se as informações de login são compativeis, se o e-mail e senha fazem parte dos mesmo usuário;
-   * 
+     * Rodar inicialmente em plataformas mobiles;
+     * Rodar em computadores e notebooks, mas inicialmente na plataforma mobile;
+     * Numa linguagem de programação e software que permita um grande fluxo de dados simutaneos de uma mesma conta(c# ou JavaScript
+     (já que o app terá "conexão" com o site feito em HTML, CSS e JavaScript));
+     * Obviamente o sistema deverá checar se as informações de login são compativeis, se o e-mail e senha fazem parte dos mesmo usuário;
+     * Programação de forma que ajude e facilite a troca e fluxo de dados;
    
-   ..................................................
+   ..............................................................................................................................
                    
