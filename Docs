@@ -27,7 +27,9 @@ funcionais e não-funcionais"
                       |                                    |   *Indie            |  *Blizzard          |  *BGS           |
                       |                                    |                     |  *Nintendo          |  *ESL Play      |
                       
-   O usuário poderá criar uma conta ou não para acessar o site, mas para comprar e/ou usar recursos do site deverá ser cadastrado
+   O usuário poderá criar uma conta ou não para acessar o site, mas para comprar e/ou usar recursos do site(adicionar amigos, 
+   favoritar jogos, seguir desenvolvedoras
+   ) deverá ser cadastrado
    no mesmo. Quem possuir conta no site poderá comprar jogos, adicionar amigos, receber notificações sobre (atualizações de jogos, 
    lançamentos, destaques, desejos, mensagens de amigos, convite para jogar, mensagens, pedidos de amizades, notificação de acesso, 
    promoções,bate-papos sobre jogos, eventos, campeonatos, etc...)
@@ -45,7 +47,8 @@ funcionais e não-funcionais"
    O aplicativo funcionará na base de "planos" onde o usuário poderá selecionar as notificações que irá receber. Os "planos"
    estão divididos em:
    
-   * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War-Be a Warrior, etc);
+   * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War-Be
+   a Warrior, etc);
    * Categorias (Fps, Indie, Carros, Aviões, Estratégia, Aventura, Rpg, Mmo, etc);
    * Desenvolvedoras (Sony, Microsoft, EA, ubisoft, Mojang, Blizzard, Capcom, Sega, etc);
    * Campeonatos (E3, CBLoL, DreamHack, GDC, BGS, TGS, Pax East, Indiecade, etc);
@@ -74,7 +77,13 @@ funcionais e não-funcionais"
    
    * Perfil:
    
-     * 
+     * Foto/imagem de preferência do usuário (sem conteúdo pornográfico, ilícito,(que posso incentivar ou demonstrar conteúdo impróprio));
+     * Nome de usuário;
+     * E-mail;
+     * Telefone/Celular;
+     * Cidade de moradia;
+     * País;
+     * Idade;
      
    ..............................................................................................................................
    
