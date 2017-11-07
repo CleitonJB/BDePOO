@@ -48,7 +48,7 @@ funcionais e não-funcionais"
    estão divididos em:
    
    * Jogos espesificos (Counter Strike Global Offensive, League of Legends, Grand Theft Auto V, Overwatch, Fifa 18, God of War-Be
-   a Warrior, etc);
+   a Warrior, Minecraft, etc);
    * Categorias (Fps, Indie, Carros, Aviões, Estratégia, Aventura, Rpg, Mmo, etc);
    * Desenvolvedoras (Sony, Microsoft, EA, ubisoft, Mojang, Blizzard, Capcom, Sega, etc);
    * Campeonatos (E3, CBLoL, DreamHack, GDC, BGS, TGS, Pax East, Indiecade, etc);
@@ -77,6 +77,8 @@ funcionais e não-funcionais"
    
    * Perfil:
    
+     * Um espaço dedicado de texto dedicado para o usuário por informações sobre ele, jogos que gosta, tipo de jogo favorito, ou algo do
+     tipo. Qualquer palavra de "baixo calão" não poderá ser colocada no mesmo.
      * Foto/imagem de preferência do usuário (sem conteúdo pornográfico, ilícito,(que posso incentivar ou demonstrar conteúdo impróprio));
      * Nome de usuário;
      * E-mail;
@@ -113,6 +115,9 @@ funcionais e não-funcionais"
      * O usuário poderá colocar foto ou não no seu perfil (Caso o mesmo no coloque foto arrumar uma imagem padrão para esse caso);
      * O usuário poderá adicionar amigos (tanto usuários quanto funcionários);
      * O usuário poderá disponibilizar ou não as suas informações pessoais;
+     * O usuário poderá postar informações, novidades, espectativas, primeiras impressões...resumindo...qualquer informação somente se 
+     for relacionada a jogos, campeonatos, eventos de gamers/games e/ou de desenvolvedoras. OBS: Como só haverá dois tipos de contas no
+     site, usuário e funcionário, desenvolvedoras de jogos e patrocinadores terão de criar contas como usuário.
   
    
    *  Requisitos Não-funcionais (Site):
