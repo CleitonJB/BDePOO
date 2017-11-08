@@ -102,13 +102,6 @@ funcionais e não-funcionais"
    
    ..............................................................................................................................
    
-   
-   *  Requisitos Funcionais (Site):
-   
-     * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair;
-       * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc;
-     * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc;
-   
    * Usuário com Login:
    
      * O usuário terá junto a conta um perfil próprio;
@@ -119,6 +112,21 @@ funcionais e não-funcionais"
      for relacionada a jogos, campeonatos, eventos de gamers/games e/ou de desenvolvedoras. OBS: Como só haverá dois tipos de contas no
      site, usuário e funcionário, desenvolvedoras de jogos e patrocinadores terão de criar contas como usuário.
   
+   * Usuário sem conta (visitante):
+   
+   * O usuário poderá visualizar novos lançamentos de jogos, jogos em destaques, eventos atuais, visualizar perfils, acessar 
+   conteúdo na comunidade(tutoriais, discussões, tópicos);
+   * O usuário não poderá mandar mensagens para outros usuários, receber notificações, interagir com outros usuários ,
+   
+   * Funcionário do site (adm):
+  
+   * Administrar (criar e/ou excluir) tópicos, discussões, comentários, perfils(contas);
+   
+   *  Requisitos Funcionais (Site):
+   
+     * Na página inicial do site o usuário poderá logar, se cadastar, e caso já esteja logado, sair;
+       * Além dos botões superiores de Home, Desenvolvedoras, Lançamentos(resentes), Demos/Trailers, Mais esperados(News), Comunidade, etc;
+     * "Menus" nas laterais ou apenas na esquerda com os tópicos: Destaques, Mais jogados, Principais eventos, Plataformas, etc;
    
    *  Requisitos Não-funcionais (Site):
    
