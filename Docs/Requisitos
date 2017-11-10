@@ -83,8 +83,9 @@ funcionais e não-funcionais"
      * Nome de usuário;
      * E-mail;
      * Telefone/Celular;
-     * Cidade de moradia;
      * País;
+     * Estado;
+     * Cidade de moradia;
      * Idade;
      
    ..............................................................................................................................
@@ -114,13 +115,13 @@ funcionais e não-funcionais"
   
    * Usuário sem conta (visitante):
    
-   * O usuário poderá visualizar novos lançamentos de jogos, jogos em destaques, eventos atuais, visualizar perfils, acessar 
+     * O usuário poderá visualizar novos lançamentos de jogos, jogos em destaques, eventos atuais, visualizar perfils, acessar 
    conteúdo na comunidade(tutoriais, discussões, tópicos);
-   * O usuário não poderá mandar mensagens para outros usuários, receber notificações, interagir com outros usuários ,
+     * O usuário não poderá mandar mensagens para outros usuários, receber notificações, interagir com outros usuários ,
    
    * Funcionário do site (adm):
   
-   * Administrar (criar e/ou excluir) tópicos, discussões, comentários, perfils(contas);
+     * Administrar (criar e/ou excluir) tópicos, discussões, comentários, perfils(contas);
    
    *  Requisitos Funcionais (Site):
    
