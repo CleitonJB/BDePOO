@@ -44,6 +44,9 @@ funcionais e não-funcionais"
    não será uma ferramenta independente do site, quando o usuário criar uma conta no nosso site será solicitado para que o mesmo 
    sincronise a sua conta do site com um aplicativo, logo, tendo que baixar o aplicativo antes da sincronização.
    
+   O fórum será uma parte do site dedicada à discussões sobre lançamentos/jogos, empresas e campeonatos e também de perguntas e 
+   suporte para desenvolvedores de jogos.
+   
    O aplicativo funcionará na base de "planos" onde o usuário poderá selecionar as notificações que irá receber. Os "planos"
    estão divididos em:
    
