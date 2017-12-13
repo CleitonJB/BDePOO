@@ -9,21 +9,7 @@ package com.mycompany.centralgamers.usuarios;
  *
  * @author aluno
  */
-public class forum {
-
-    /**
-     * @return the cod_forum
-     */
-    public int getCod_forum() {
-        return cod_forum;
-    }
-
-    /**
-     * @param cod_forum the cod_forum to set
-     */
-    public void setCod_forum(int cod_forum) {
-        this.cod_forum = cod_forum;
-    }
+public class Postagem {
 
     /**
      * @return the cod_postagem
@@ -54,6 +40,20 @@ public class forum {
     }
 
     /**
+     * @return the cod_forum
+     */
+    public int getCod_forum() {
+        return cod_forum;
+    }
+
+    /**
+     * @param cod_forum the cod_forum to set
+     */
+    public void setCod_forum(int cod_forum) {
+        this.cod_forum = cod_forum;
+    }
+
+    /**
      * @return the titulo
      */
     public String getTitulo() {
@@ -68,21 +68,21 @@ public class forum {
     }
 
     /**
-     * @return the assunto
+     * @return the conteudo
      */
-    public String getAssunto() {
-        return assunto;
+    public String getConteudo() {
+        return conteudo;
     }
 
     /**
-     * @param assunto the assunto to set
+     * @param conteudo the conteudo to set
      */
-    public void setAssunto(String assunto) {
-        this.assunto = assunto;
+    public void setConteudo(String conteudo) {
+        this.conteudo = conteudo;
     }
-    private int cod_forum;
     private int cod_postagem;
     private int cod_usuario;
+    private int cod_forum;
     private String titulo;
-    private String assunto;
+    private String conteudo;
 }

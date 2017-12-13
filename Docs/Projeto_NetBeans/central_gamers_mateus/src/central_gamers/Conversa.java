@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author aluno
  */
-public class conversa {
+public class Conversa {
 
     /**
      * @return the cod_mensagem

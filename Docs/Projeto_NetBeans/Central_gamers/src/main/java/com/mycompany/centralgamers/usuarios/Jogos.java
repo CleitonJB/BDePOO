@@ -9,7 +9,7 @@ package com.mycompany.centralgamers.usuarios;
  *
  * @author aluno
  */
-public class jogos {
+public class Jogos {
 
     /**
      * @return the cod_informacao
