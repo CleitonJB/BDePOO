@@ -1,15 +1,31 @@
+package com.mycompany.central_gamers;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.centralgamers.usuarios;
+
 
 /**
  *
  * @author aluno
  */
 public class forum {
+
+    /**
+     * @return the cod_comentario
+     */
+    public int getCod_comentario() {
+        return cod_comentario;
+    }
+
+    /**
+     * @param cod_comentario the cod_comentario to set
+     */
+    public void setCod_comentario(int cod_comentario) {
+        this.cod_comentario = cod_comentario;
+    }
 
     /**
      * @return the cod_forum
@@ -82,6 +98,7 @@ public class forum {
     }
     private int cod_forum;
     private int cod_postagem;
+    private int cod_comentario;
     private int cod_usuario;
     private String titulo;
     private String assunto;

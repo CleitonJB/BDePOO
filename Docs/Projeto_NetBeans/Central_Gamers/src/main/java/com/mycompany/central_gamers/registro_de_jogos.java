@@ -1,15 +1,31 @@
+package com.mycompany.central_gamers;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.centralgamers.usuarios;
+
 
 /**
  *
  * @author aluno
  */
-public class Jogos {
+public class registro_de_jogos {
+
+    /**
+     * @return the plataforma
+     */
+    public String getPlataforma() {
+        return plataforma;
+    }
+
+    /**
+     * @param plataforma the plataforma to set
+     */
+    public void setPlataforma(String plataforma) {
+        this.plataforma = plataforma;
+    }
 
     /**
      * @return the cod_informacao
@@ -84,15 +100,15 @@ public class Jogos {
     /**
      * @return the modo
      */
-    public String getModo() {
-        return modo;
+    public String getplataforma() {
+        return getPlataforma();
     }
 
     /**
      * @param modo the modo to set
      */
-    public void setModo(String modo) {
-        this.modo = modo;
+    public void setplataforma(String modo) {
+        this.setPlataforma(modo);
     }
 
     /**
@@ -168,26 +184,15 @@ public class Jogos {
     /**
      * @return the informacoes
      */
-    public String getInformacoes() {
-        return informacoes;
-    }
-
-    /**
-     * @param informacoes the informacoes to set
-     */
-    public void setInformacoes(String informacoes) {
-        this.informacoes = informacoes;
-    }
     private int cod_informacao;
     private int cod_usuario;
     private String nome;
     private String desenvolvedora;
     private String lancamento;
-    private String modo;
+    private String plataforma;
     private String imagem;
     private String categoria;
     private String classificacao_idade;
     private String historia;
     private String novidades;
-    private String informacoes;
 }

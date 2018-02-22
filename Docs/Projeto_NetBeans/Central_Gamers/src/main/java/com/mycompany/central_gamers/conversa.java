@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package central_gamers;
+package com.mycompany.central_gamers;
 
 import java.util.Date;
 
@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author aluno
  */
-public class Conversa {
+public class conversa {
 
     /**
      * @return the cod_mensagem

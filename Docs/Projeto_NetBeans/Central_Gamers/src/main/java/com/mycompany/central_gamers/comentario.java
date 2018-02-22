@@ -1,28 +1,30 @@
+package com.mycompany.central_gamers;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.centralgamers.usuarios;
+
 
 /**
  *
  * @author aluno
  */
-public class Postagem {
+public class comentario {
 
     /**
-     * @return the cod_postagem
+     * @return the cod_comentario
      */
-    public int getCod_postagem() {
-        return cod_postagem;
+    public int getCod_comentario() {
+        return cod_comentario;
     }
 
     /**
-     * @param cod_postagem the cod_postagem to set
+     * @param cod_comentario the cod_comentario to set
      */
-    public void setCod_postagem(int cod_postagem) {
-        this.cod_postagem = cod_postagem;
+    public void setCod_comentario(int cod_comentario) {
+        this.cod_comentario = cod_comentario;
     }
 
     /**
@@ -40,31 +42,17 @@ public class Postagem {
     }
 
     /**
-     * @return the cod_forum
+     * @return the cod_postagem
      */
-    public int getCod_forum() {
-        return cod_forum;
+    public int getCod_postagem() {
+        return cod_postagem;
     }
 
     /**
-     * @param cod_forum the cod_forum to set
+     * @param cod_postagem the cod_postagem to set
      */
-    public void setCod_forum(int cod_forum) {
-        this.cod_forum = cod_forum;
-    }
-
-    /**
-     * @return the titulo
-     */
-    public String getTitulo() {
-        return titulo;
-    }
-
-    /**
-     * @param titulo the titulo to set
-     */
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setCod_postagem(int cod_postagem) {
+        this.cod_postagem = cod_postagem;
     }
 
     /**
@@ -80,9 +68,8 @@ public class Postagem {
     public void setConteudo(String conteudo) {
         this.conteudo = conteudo;
     }
-    private int cod_postagem;
+    private int cod_comentario;
     private int cod_usuario;
-    private int cod_forum;
-    private String titulo;
+    private int cod_postagem;
     private String conteudo;
 }
