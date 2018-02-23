@@ -15,6 +15,48 @@ import java.util.Date;
 public class Usuario {
 
     /**
+     * @return the username
+     */
+    public String getUsername() {
+        return username;
+    }
+
+    /**
+     * @param username the username to set
+     */
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    /**
+     * @return the nome
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     * @return the sobrenome
+     */
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    /**
+     * @param sobrenome the sobrenome to set
+     */
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
+    /**
      * @return the cod_usuario
      */
     public int getCod_usuario() {
@@ -153,9 +195,12 @@ public class Usuario {
     public void setAdministrador(boolean administrador) {
         this.administrador = administrador;
     }
+    
     private int cod_usuario;
-    private String login;
+    private String username;
     private String senha;
+    private String nome;
+    private String sobrenome;
     private int cpf;
     private int rg;
     private String email;
