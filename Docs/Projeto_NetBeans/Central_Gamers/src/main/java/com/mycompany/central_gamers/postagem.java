@@ -14,45 +14,52 @@ package com.mycompany.central_gamers;
 public class postagem {
 
     /**
+     * @return the codUsuario
+     */
+    public int getCodUsuario() {
+        return codUsuario;
+    }
+
+    /**
      * @return the cod_postagem
      */
-    public int getCod_postagem() {
-        return cod_postagem;
+    public int getCodPostagem() {
+        return codPostagem;
     }
 
     /**
      * @param cod_postagem the cod_postagem to set
      */
-    public void setCod_postagem(int cod_postagem) {
-        this.cod_postagem = cod_postagem;
+    public void setCodPostagem(int codPostagem) {
+        this.codPostagem = codPostagem;
     }
 
     /**
      * @return the cod_usuario
      */
     public int getCod_usuario() {
-        return cod_usuario;
+        return getCodUsuario();
     }
 
     /**
      * @param cod_usuario the cod_usuario to set
      */
-    public void setCod_usuario(int cod_usuario) {
-        this.cod_usuario = cod_usuario;
+    public void setCodUsuario(int codUsuario) {
+        this.codUsuario = codUsuario;
     }
 
     /**
      * @return the cod_forum
      */
-    public int getCod_forum() {
-        return cod_forum;
+    public int getCodForum() {
+        return codForum;
     }
 
     /**
      * @param cod_forum the cod_forum to set
      */
-    public void setCod_forum(int cod_forum) {
-        this.cod_forum = cod_forum;
+    public void setCodForum(int codForum) {
+        this.codForum = codForum;
     }
 
     /**
@@ -82,9 +89,9 @@ public class postagem {
     public void setConteudo(String conteudo) {
         this.conteudo = conteudo;
     }
-    private int cod_postagem;
-    private int cod_usuario;
-    private int cod_forum;
+    private int codPostagem;
+    private int codUsuario;
+    private int codForum;
     private String titulo;
     private String conteudo;
 }

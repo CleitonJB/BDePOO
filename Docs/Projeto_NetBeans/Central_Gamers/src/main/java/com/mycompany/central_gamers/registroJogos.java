@@ -11,7 +11,7 @@ package com.mycompany.central_gamers;
  *
  * @author aluno
  */
-public class registro_de_jogos {
+public class registroJogos {
 
     /**
      * @return the plataforma

@@ -16,57 +16,57 @@ public class forum {
     /**
      * @return the cod_comentario
      */
-    public int getCod_comentario() {
-        return cod_comentario;
+    public int getCodComentario() {
+        return codComentario;
     }
 
     /**
      * @param cod_comentario the cod_comentario to set
      */
-    public void setCod_comentario(int cod_comentario) {
-        this.cod_comentario = cod_comentario;
+    public void setCodComentario(int codComentario) {
+        this.codComentario = codComentario;
     }
 
     /**
      * @return the cod_forum
      */
-    public int getCod_forum() {
-        return cod_forum;
+    public int getCodForum() {
+        return codForum;
     }
 
     /**
      * @param cod_forum the cod_forum to set
      */
-    public void setCod_forum(int cod_forum) {
-        this.cod_forum = cod_forum;
+    public void setCodForum(int codForum) {
+        this.codForum = codForum;
     }
 
     /**
      * @return the cod_postagem
      */
-    public int getCod_postagem() {
-        return cod_postagem;
+    public int getCodPostagem() {
+        return codPostagem;
     }
 
     /**
      * @param cod_postagem the cod_postagem to set
      */
-    public void setCod_postagem(int cod_postagem) {
-        this.cod_postagem = cod_postagem;
+    public void setCodPostagem(int codPostagem) {
+        this.codPostagem = codPostagem;
     }
 
     /**
      * @return the cod_usuario
      */
-    public int getCod_usuario() {
-        return cod_usuario;
+    public int getCodUsuario() {
+        return codUsuario;
     }
 
     /**
      * @param cod_usuario the cod_usuario to set
      */
-    public void setCod_usuario(int cod_usuario) {
-        this.cod_usuario = cod_usuario;
+    public void setCodUsuario(int codUsuario) {
+        this.codUsuario = codUsuario;
     }
 
     /**
@@ -96,10 +96,10 @@ public class forum {
     public void setAssunto(String assunto) {
         this.assunto = assunto;
     }
-    private int cod_forum;
-    private int cod_postagem;
-    private int cod_comentario;
-    private int cod_usuario;
+    private int codForum;
+    private int codPostagem;
+    private int codComentario;
+    private int codUsuario;
     private String titulo;
     private String assunto;
 }

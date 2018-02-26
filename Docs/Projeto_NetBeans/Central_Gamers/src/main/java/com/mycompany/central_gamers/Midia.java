@@ -14,29 +14,29 @@ public class Midia {
     /**
      * @return the cod_midia
      */
-    public int getCod_midia() {
-        return cod_midia;
+    public int getCodMidia() {
+        return codMidia;
     }
 
     /**
      * @param cod_midia the cod_midia to set
      */
-    public void setCod_midia(int cod_midia) {
-        this.cod_midia = cod_midia;
+    public void setCodMidia(int codMidia) {
+        this.codMidia = codMidia;
     }
 
     /**
      * @return the cod_postagem
      */
-    public int getCod_postagem() {
-        return cod_postagem;
+    public int getCodPostagem() {
+        return codPostagem;
     }
 
     /**
      * @param cod_postagem the cod_postagem to set
      */
-    public void setCod_postagem(int cod_postagem) {
-        this.cod_postagem = cod_postagem;
+    public void setCodPostagem(int codPostagem) {
+        this.codPostagem = codPostagem;
     }
 
     /**
@@ -94,8 +94,8 @@ public class Midia {
     public void setLink(String link) {
         this.link = link;
     }
-    private int cod_midia;
-    private int cod_postagem;
+    private int codMidia;
+    private int codPostagem;
     private String tipo;
     private String qualidade;
     private String tamanho;

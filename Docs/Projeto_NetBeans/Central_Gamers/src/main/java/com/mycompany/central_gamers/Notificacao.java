@@ -14,57 +14,57 @@ public class Notificacao {
     /**
      * @return the cod_notificacao
      */
-    public int getCod_notificacao() {
-        return cod_notificacao;
+    public int getCodNotificacao() {
+        return codNotificacao;
     }
 
     /**
      * @param cod_notificacao the cod_notificacao to set
      */
-    public void setCod_notificacao(int cod_notificacao) {
-        this.cod_notificacao = cod_notificacao;
+    public void setCodNotificacao(int codNotificacao) {
+        this.codNotificacao = codNotificacao;
     }
 
     /**
      * @return the cod_forum
      */
-    public int getCod_forum() {
-        return cod_forum;
+    public int getCodForum() {
+        return codForum;
     }
 
     /**
      * @param cod_forum the cod_forum to set
      */
-    public void setCod_forum(int cod_forum) {
-        this.cod_forum = cod_forum;
+    public void setCodForum(int codForum) {
+        this.codForum = codForum;
     }
 
     /**
      * @return the cod_usuario
      */
-    public int getCod_usuario() {
-        return cod_usuario;
+    public int getCodUsuario() {
+        return codUsuario;
     }
 
     /**
      * @param cod_usuario the cod_usuario to set
      */
-    public void setCod_usuario(int cod_usuario) {
-        this.cod_usuario = cod_usuario;
+    public void setCodUsuario(int codUsuario) {
+        this.codUsuario = codUsuario;
     }
 
     /**
      * @return the tipo_de_aviso
      */
-    public String getTipo_de_aviso() {
-        return tipo_de_aviso;
+    public String getTipoAviso() {
+        return tipoAviso;
     }
 
     /**
      * @param tipo_de_aviso the tipo_de_aviso to set
      */
-    public void setTipo_de_aviso(String tipo_de_aviso) {
-        this.tipo_de_aviso = tipo_de_aviso;
+    public void setTipoAviso(String tipoAviso) {
+        this.tipoAviso = tipoAviso;
     }
 
     /**
@@ -80,9 +80,9 @@ public class Notificacao {
     public void setRecebimento(boolean recebimento) {
         this.recebimento = recebimento;
     }
-    private int cod_notificacao;
-    private int cod_forum;
-    private int cod_usuario;
-    private String tipo_de_aviso;
+    private int codNotificacao;
+    private int codForum;
+    private int codUsuario;
+    private String tipoAviso;
     private boolean recebimento;
     }
