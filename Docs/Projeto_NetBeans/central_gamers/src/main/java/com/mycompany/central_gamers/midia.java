@@ -9,7 +9,7 @@ package com.mycompany.central_gamers;
  *
  * @author aluno
  */
-public class Midia {
+public class midia {
 
     /**
      * @return the cod_midia

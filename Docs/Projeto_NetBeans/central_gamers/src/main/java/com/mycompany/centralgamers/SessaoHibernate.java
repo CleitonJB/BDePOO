@@ -5,7 +5,7 @@
  */
 package com.mycompany.centralgamers;
 
-import com.mycompany.central_gamers.Usuario;
+import com.mycompany.central_gamers.usuario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
@@ -22,7 +22,7 @@ public class SessaoHibernate {
     static {
         Configuration cfg = new AnnotationConfiguration();
         cfg.configure("hibernate.cfg.xml");
-        cfg.addAnnotatedClass(Usuario.class);
+        cfg.addAnnotatedClass(usuario.class);
         sf = cfg.buildSessionFactory(); 
     }
     

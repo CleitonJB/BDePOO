@@ -9,7 +9,7 @@ package com.mycompany.central_gamers;
  *
  * @author aluno
  */
-public class Notificacao {
+public class notificacao {
 
     /**
      * @return the cod_notificacao

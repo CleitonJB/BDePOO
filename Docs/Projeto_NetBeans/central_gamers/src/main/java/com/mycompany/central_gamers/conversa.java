@@ -14,6 +14,20 @@ import java.util.Date;
 public class conversa {
 
     /**
+     * @return the dataHoraMensagem
+     */
+    public Date getDataHoraMensagem() {
+        return dataHoraMensagem;
+    }
+
+    /**
+     * @param dataHoraMensagem the dataHoraMensagem to set
+     */
+    public void setDataHoraMensagem(Date dataHoraMensagem) {
+        this.dataHoraMensagem = dataHoraMensagem;
+    }
+
+    /**
      * @param codUsuarioDestino the codUsuarioDestino to set
      */
     public void setCodUsuarioDestino(int codUsuarioDestino) {
@@ -28,7 +42,7 @@ public class conversa {
     }
 
     /**
-     * @param cod_mensagem the cod_mensagem to set
+     * @param codMensagem the cod_mensagem to set
      */
     public void setCodMensagem(int codMensagem) {
         this.codMensagem = codMensagem;
@@ -42,7 +56,7 @@ public class conversa {
     }
 
     /**
-     * @param cod_usuario_origem the cod_usuario_origem to set
+     * @param codUsuarioOrigem the cod_usuario_origem to set
      */
     public void setCodUsuarioOrigem(int codUsuarioOrigem) {
         this.codUsuarioOrigem = codUsuarioOrigem;
@@ -79,19 +93,19 @@ public class conversa {
     /**
      * @return the data_hora
      */
-    public Date getDataHora() {
-        return dataHora;
+    public Date getdataHoraMensagem() {
+        return getDataHoraMensagem();
     }
 
     /**
-     * @param data_hora the data_hora to set
+     * @param dataHoraMensagem the data_hora to set
      */
-    public void setDataHora(Date dataHora) {
-        this.dataHora = dataHora;
+    public void setdataHoraMensagem(Date dataHoraMensagem) {
+        this.setDataHoraMensagem(dataHoraMensagem);
     }
    private int codMensagem;
    private int codUsuarioOrigem;
    private int codUsuarioDestino;
    private String texto;
-   private Date dataHora;
+   private Date dataHoraMensagem;
 }

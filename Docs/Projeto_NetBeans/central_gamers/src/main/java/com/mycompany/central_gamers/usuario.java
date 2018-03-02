@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author aluno
  */
-public class Usuario {
+public class usuario {
 
     /**
      * @return the codUsuario

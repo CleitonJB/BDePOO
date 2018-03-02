@@ -5,7 +5,7 @@
  */
 package vazio;
 
-import com.mycompany.central_gamers.Usuario;
+import com.mycompany.central_gamers.usuario;
 import com.mycompany.centralgamers.SessaoHibernate;
 import org.hibernate.Session;
 
@@ -21,7 +21,7 @@ public class TesteHibernate {
     public static void main(String[] args) {
         Session sessao = SessaoHibernate.nova();
         
-        Usuario user = new Usuario();
+        usuario user = new usuario();
         user.setEmail("cleitonbraga56@gmail.com");
         user.setNome("Cleiton");
         user.setSenha("123");

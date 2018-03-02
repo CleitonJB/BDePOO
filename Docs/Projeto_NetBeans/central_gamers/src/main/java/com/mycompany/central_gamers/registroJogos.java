@@ -14,6 +14,20 @@ package com.mycompany.central_gamers;
 public class registroJogos {
 
     /**
+     * @return the codJogo
+     */
+    public int getCodJogo() {
+        return codJogo;
+    }
+
+    /**
+     * @param codJogo the codJogo to set
+     */
+    public void setCodJogo(int codJogo) {
+        this.codJogo = codJogo;
+    }
+
+    /**
      * @return the plataforma
      */
     public String getPlataforma() {
@@ -26,36 +40,7 @@ public class registroJogos {
     public void setPlataforma(String plataforma) {
         this.plataforma = plataforma;
     }
-
-    /**
-     * @return the cod_informacao
-     */
-    public int getCod_informacao() {
-        return cod_informacao;
-    }
-
-    /**
-     * @param cod_informacao the cod_informacao to set
-     */
-    public void setCod_informacao(int cod_informacao) {
-        this.cod_informacao = cod_informacao;
-    }
-
-    /**
-     * @return the cod_usuario
-     */
-    public int getCod_usuario() {
-        return cod_usuario;
-    }
-
-    /**
-     * @param cod_usuario the cod_usuario to set
-     */
-    public void setCod_usuario(int cod_usuario) {
-        this.cod_usuario = cod_usuario;
-    }
-
-    /**
+/**
      * @return the nome
      */
     public String getNome() {
@@ -184,8 +169,8 @@ public class registroJogos {
     /**
      * @return the informacoes
      */
-    private int cod_informacao;
-    private int cod_usuario;
+    
+    private int codJogo;
     private String nome;
     private String desenvolvedora;
     private String lancamento;

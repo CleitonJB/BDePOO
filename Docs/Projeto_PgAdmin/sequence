@@ -1,0 +1,8 @@
+﻿ALTER TABLE usuario ALTER COLUMN cod_usuario SET DEFAULT nextval('usuario_cod_usuario_seq');
+ALTER TABLE registro_de_jogos ALTER COLUMN cod_jogo SET DEFAULT nextval('registro_de_jogos_cod_jogo_seq');
+ALTER TABLE postagem ALTER COLUMN cod_postagem SET DEFAULT nextval('postagem_cod_postagem_seq');
+ALTER TABLE notificacao ALTER COLUMN cod_notificacao SET DEFAULT nextval('notificacao_cod_notificacao_seq');
+ALTER TABLE midia ALTER COLUMN cod_midia SET DEFAULT nextval('midia_cod_midia_seq');
+ALTER TABLE forum ALTER COLUMN cod_forum SET DEFAULT nextval('forum_cod_forum_seq');
+ALTER TABLE conversa ALTER COLUMN cod_mensagem SET DEFAULT nextval('conversa_cod_mensagem_seq');
+ALTER TABLE comentario ALTER COLUMN cod_comentario SET DEFAULT nextval('comentario_cod_comentario_seq');

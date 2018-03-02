@@ -1,5 +1,7 @@
 package com.mycompany.central_gamers;
 
+import java.util.Date;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,6 +14,20 @@ package com.mycompany.central_gamers;
  * @author aluno
  */
 public class comentario {
+
+    /**
+     * @return the dataHoraComentario
+     */
+    public Date getDataHoraComentario() {
+        return dataHoraComentario;
+    }
+
+    /**
+     * @param dataHoraComentario the dataHoraComentario to set
+     */
+    public void setDataHoraComentario(Date dataHoraComentario) {
+        this.dataHoraComentario = dataHoraComentario;
+    }
 
     /**
      * @return the cod_comentario
@@ -72,4 +88,5 @@ public class comentario {
     private int codUsuario;
     private int codPostagem;
     private String conteudo;
+    private Date dataHoraComentario;
 }
