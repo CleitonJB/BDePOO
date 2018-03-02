@@ -7,54 +7,102 @@ package com.mycompany.central_gamers;
 
 import java.io.File;
 import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
  *
  * @author aluno
  */
+@Entity
+
 public class usuario {
 
     /**
-     * @return the codUsuario
+     * @return the pais
      */
-    public int getCodUsuario() {
-        return codUsuario;
+    public String getPais() {
+        return pais;
     }
 
     /**
-     * @param codUsuario the codUsuario to set
+     * @param pais the pais to set
      */
-    public void setCodUsuario(int codUsuario) {
-        this.codUsuario = codUsuario;
+    public void setPais(String pais) {
+        this.pais = pais;
     }
 
     /**
-     * @return the dataNascimento
+     * @return the estado
      */
-    public Date getDataNascimento() {
-        return dataNascimento;
+    public String getEstado() {
+        return estado;
     }
 
     /**
-     * @param dataNascimento the dataNascimento to set
+     * @param estado the estado to set
      */
-    public void setDataNascimento(Date dataNascimento) {
-        this.dataNascimento = dataNascimento;
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     /**
-     * @return the codIndicador
+     * @return the cidade
      */
-    public int getCodIndicador() {
-        return codIndicador;
+    public String getCidade() {
+        return cidade;
     }
 
     /**
-     * @param codIndicador the codIndicador to set
+     * @param cidade the cidade to set
      */
-    public void setCodIndicador(int codIndicador) {
-        this.codIndicador = codIndicador;
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+    
+    @Id
+    @GeneratedValue
+    private int cod_usuario;
+    private String username;
+    private String senha;
+    private String nome;
+    private String sobrenome;
+    private String email;
+    private Date data_nascimento;
+    private File foto;
+    private String pais;
+    private String estado;
+    private String cidade;
+    
+
+    /**
+     * @return the cod_usuario
+     */
+    public int getCod_usuario() {
+        return cod_usuario;
     }
 
+    /**
+     * @param cod_usuario the cod_usuario to set
+     */
+    public void setCod_usuario(int cod_usuario) {
+        this.cod_usuario = cod_usuario;
+    }
+
+    /**
+     * @return the data_nascimento
+     */
+    public Date getData_nascimento() {
+        return data_nascimento;
+    }
+
+    /**
+     * @param data_nascimento the data_nascimento to set
+     */
+    public void setData_nascimento(Date data_nascimento) {
+        this.data_nascimento = data_nascimento;
+    }
     /**
      * @return the username
      */
@@ -96,7 +144,7 @@ public class usuario {
     public void setSobrenome(String sobrenome) {
         this.sobrenome = sobrenome;
     }
-    
+
     public String getSenha() {
         return senha;
     }
@@ -107,6 +155,7 @@ public class usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
     /**
      * @return the email
      */
@@ -121,7 +170,7 @@ public class usuario {
         this.email = email;
     }
 
-   /**
+    /**
      * @return the foto
      */
     public File getFoto() {
@@ -134,14 +183,5 @@ public class usuario {
     public void setFoto(File foto) {
         this.foto = foto;
     }
-    
-    private int codUsuario;
-    private String username;
-    private String senha;
-    private String nome;
-    private String sobrenome;
-    private String email;
-    private Date dataNascimento;
-    private File foto;
-    private int codIndicador;
+
 }

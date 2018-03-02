@@ -2,11 +2,35 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>ServletLoginUsuario</servlet-name>
-        <servlet-class>Servlets.ServletLoginUsuario</servlet-class>
+        <servlet-class>com.mycompany.central_gamers.ServletLoginUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cadastroUsuario</servlet-name>
+        <servlet-class>.cadastroUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cadastroUsuario2</servlet-name>
+        <servlet-class>com.mycompany.central_gamers.cadastroUsuario2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastroUsuario</servlet-name>
+        <servlet-class>com.mycompany.central_gamers.CadastroUsuario</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletLoginUsuario</servlet-name>
         <url-pattern>/ServletLoginUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastroUsuario</servlet-name>
+        <url-pattern>/cadastroUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastroUsuario2</servlet-name>
+        <url-pattern>/cadastroUsuario2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastroUsuario</servlet-name>
+        <url-pattern>/CadastroUsuario</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

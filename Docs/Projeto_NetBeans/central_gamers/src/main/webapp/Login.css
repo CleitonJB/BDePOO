@@ -1,0 +1,108 @@
+body {
+
+	background: url('C:/Users/cleiton/Desktop/Arquivos aleatórios/MeuSite/Imagens/background.jpg');
+
+}
+
+p {
+
+	position: relative;
+	font-size: 15px;
+
+}
+
+p:hover {
+
+	color: #FE9A2E;
+
+}
+
+input[type=text], input[type=password] {
+
+	border: 1.3px solid black;
+
+}
+
+.BarraSuperior {
+
+	position: relative;
+	width: 1366px;
+	right: 8px;
+	bottom: 8px;
+	background: black;
+	height: 58px;
+	border-bottom: 2px solid white;
+	box-shadow: 0px 1px 10px black;
+
+}
+
+.Logo {
+
+	position: relative;
+	float: center;
+	width: 220px;
+	top: 10px;
+	z-index: 1;
+
+}
+
+.Fundo {
+
+	background: white;
+	width: 700px;
+
+
+}
+
+.TextCadastro {
+	
+	position: relative;
+	top: 5px;
+
+}
+
+.DetalheBorder {
+
+	margin-top: 130px;
+	box-shadow: 2px 1px 10px black;
+	width: 700px;
+
+}
+
+.FundoLogin {
+	
+	position: center;
+	background: black;
+	color: white;
+	width: 700px;
+	height: 50px;
+	box-shadow: 2px 1px 10px black;
+
+}
+
+.Botoes {
+
+	position: relative;
+	top: -8px;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	margin-left: 13px;
+	margin-right: 13px;
+	width: 100px;
+	height: 33px;
+	border-color: #FE9A2E;
+
+
+}
+
+.Botoes:hover {
+
+	position: relative;
+	top: -10px;
+	width: 105px;
+	height: 33px;
+	color: #FE9A2E;
+
+
+}
