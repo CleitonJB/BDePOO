@@ -359,13 +359,12 @@ section {
 
 body {
 
-	background: url('C:/Users/cleiton/Desktop/Arquivos aleatórios/MeuSite/Imagens/background.jpg');
+	background: url('MeuSite/Imagens/background.jpg');
 
 }
 
 article {
-
-	position: ;
+    
 	margin-top: 50px;
 	width: 900px;
 

@@ -11,10 +11,11 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.hibernate.Session;
 
 /**
  *
- * @author aluno
+ * @author luizcanf
  */
 public class ServletLoginUsuario extends HttpServlet {
 
@@ -29,19 +30,19 @@ public class ServletLoginUsuario extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet ServletLoginUsuario</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet ServletLoginUsuario at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+        String username = request.getParameter("username");
+        String senha = request.getParameter("senha");
+        Session sessao = SessaoHibernate.nova();
+        usuario user = (usuario) sessao.createQuery("from usuario where username = ? and senha = ?")
+                .setString(0, username)
+                .setString(1, senha)
+                .uniqueResult();
+        if (user == null) {
+            response.sendRedirect("logininvalido.html");
+        } else {
+            response.sendRedirect("perfillogin.html");
         }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

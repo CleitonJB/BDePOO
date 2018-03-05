@@ -5,7 +5,7 @@
 
 		<title> CG - Cadastro! </title>
 
-		<link rel="shortcut icon" href="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Logo\CGlogo.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="MeuSite\Logo\CGlogo.ico" type="image/x-icon">
 
 		<link rel="stylesheet" type="text/css" href="Cadastro.css">
 
@@ -15,7 +15,7 @@
 
 		<div class="BarraSuperior">
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Logo\Logo.png" Onclick="window.open('file:///C:/Users/cleiton/Desktop/Arquivos%20aleatórios/MeuSite/Scripts/CentralGamers.html')" class="Logo" title="Bem vindo ao Central Gamers!" />
+			<img src="MeuSite\Logo\Logo.png" Onclick="window.open('index.jsp')" class="Logo" title="Bem vindo ao Central Gamers!" />
 
 		</div>
 
@@ -180,7 +180,7 @@
 
 							<br/>
 
-							<p> Já possui conta? </p> <input type="button" class="Botoes" value="Logar" onclick="window.open('file:///C:/Users/cleiton/Desktop/Arquivos%20aleat%C3%B3rios/MeuSite/Scripts/Login.html')">
+							<p> Já possui conta? </p> <input type="button" class="Botoes" value="Logar" onclick="window.open('login.jsp')">
 
 						</form>
 				

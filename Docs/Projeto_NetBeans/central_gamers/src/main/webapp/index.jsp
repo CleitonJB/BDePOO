@@ -6,7 +6,7 @@
 
 		<title> CG - Central Gamers </title>
 
-		<link rel="shortcut icon" href="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Logo\CGlogo.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="MeuSite\Logo\CGlogo.ico" type="image/x-icon">
 
 		<link rel="stylesheet" type="text/css" href="CentralGamers.css">
 
@@ -16,7 +16,7 @@
 
 		<header>
 			
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Logo\Logo.png" Onclick="window.open('file:///C:/Users/cleiton/Desktop/Arquivos%20aleatórios/MeuSite/Scripts/CentralGamers.html')" class="Logo" title="Bem vindo ao Central Gamers!" />
+			<img src="MeuSite\Logo\Logo.png" Onclick="window.open('index.jsp')" class="Logo" title="Bem vindo ao Central Gamers!" />
 
 			<div align="center">
 
@@ -28,9 +28,9 @@
 					<input type="button" Onclick="window.location.reload()" class="BotoesSuperiores" value="Suporte" >
 					<input type="button" Onclick="window.location.reload()" class="BotoesSuperiores" value="Sobre" >
 
-					<input type="button" Onclick="window.open('file:///C:/Users/cleiton/Desktop/Arquivos%20aleat%C3%B3rios/MeuSite/Scripts/cadastro.jsp')" class="Cadastro" value="Cadastrar" >
+					<input type="button" Onclick="window.open('cadastro.jsp')" class="Cadastro" value="Cadastrar" >
 					<input type="button" class="Barra" value="/" >
-					<input type="button" Onclick="window.open('file:///C:/Users/cleiton/Desktop/Arquivos%20aleat%C3%B3rios/MeuSite/Scripts/Login.html')" class="Login" value="Logar" >
+					<input type="button" Onclick="window.open('login.jsp')" class="Login" value="Logar" >
 
 				</div>
 
@@ -151,43 +151,43 @@
 					</div>
 				</div>
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\eft.jpg" class="Destaques" title="Escape From Tarkov">
+					<img src="MeuSite\Imagens\eft.jpg" class="Destaques" title="Escape From Tarkov">
 					
 
 					
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\csgo.jpg" class="Destaques" title="Counter Strike: Global Offensive"> 
+					<img src="MeuSite\Imagens\csgo.jpg" class="Destaques" title="Counter Strike: Global Offensive"> 
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\bf1.jpg" class="Destaques" title="Battlefield 1"> 
+					<img src="MeuSite\Imagens\bf1.jpg" class="Destaques" title="Battlefield 1"> 
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\fc3.jpg" class="Destaques" title="Far Cry 3">
+					<img src="MeuSite\Imagens\fc3.jpg" class="Destaques" title="Far Cry 3">
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\mnc.jpg" class="Destaques" title="Minecraft"> 
+					<img src="MeuSite\Imagens\mnc.jpg" class="Destaques" title="Minecraft"> 
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\bf4.jpg" class="Destaques" title="Battlefield 4">
+					<img src="MeuSite\Imagens\bf4.jpg" class="Destaques" title="Battlefield 4">
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\pubg.png" class="Destaques" title="PlayerUnknown?s Battleground">
+					<img src="MeuSite\Imagens\pubg.png" class="Destaques" title="PlayerUnknown?s Battleground">
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\lol.jpg" class="Destaques" title="League of Legends">
+					<img src="MeuSite\Imagens\lol.jpg" class="Destaques" title="League of Legends">
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\gta.jpg" class="Destaques" title="Grand Theft Auto V">
+					<img src="MeuSite\Imagens\gta.jpg" class="Destaques" title="Grand Theft Auto V">
 					
 
 
-					<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\fc5.jpg" class="Destaques" title="Far Cry 5"> 
+					<img src="MeuSite\Imagens\fc5.jpg" class="Destaques" title="Far Cry 5"> 
 					
 
 
@@ -232,9 +232,9 @@
 
 		<footer>
 			
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Fotos\Eu.jpg" class="Rodapeimagemcj" title="Cleiton Braga">
+			<img src="MeuSite\Fotos\Eu.jpg" class="Rodapeimagemcj" title="Cleiton Braga">
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Fotos\Mateus.jpg" class="Rodapeimagemmg" title="Mateus Gonçalves">
+			<img src="MeuSite\Fotos\Mateus.jpg" class="Rodapeimagemmg" title="Mateus Gonçalves">
 
 			<div align="center">
 
@@ -242,15 +242,15 @@
 
 			</div>
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\Twitter.png" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Twitter">
+			<img src="MeuSite\Imagens\Twitter.png" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Twitter">
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\facebook.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Facebook">
+			<img src="MeuSite\Imagens\facebook.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Facebook">
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\Tumblr.png" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Tumblr">
+			<img src="MeuSite\Imagens\Tumblr.png" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Tumblr">
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\instagram.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Instagram">
+			<img src="MeuSite\Imagens\instagram.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Instagram">
 
-			<img src="C:\Users\cleiton\Desktop\Arquivos aleatórios\MeuSite\Imagens\gmail.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Gmail">
+			<img src="MeuSite\Imagens\gmail.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Gmail">
 
 			<p class="Autorais"> Tenho quase certeza que todos os nossos direitos de autoria estão rezervados em algum lugar a partir de um tempo. Os jogos aqui mostrados não são de nossa posse, caso queira reivindicar direitos autorais, favor entrar em contato. </p> 
 
