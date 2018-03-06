@@ -103,44 +103,6 @@
 
 		</header>
 
-		<aside>
-			
-			<!-- <div class="MenuLateral">
-				
-				<center>
-
-					<input type="button" class="TituloBotoes" value="Mais populares"> 
-
-					<input type="button" class="BotoesLaterais" value="League of Legends"> 
-					<input type="button" class="BotoesLaterais" value="Hearthstone: Heroes of Warcraft"> 
-					<input type="button" class="BotoesLaterais" value="Minecraft"> 
-					<input type="button" class="BotoesLaterais" value="Counter Strike: Global Offensive"> 
-					<input type="button" class="BotoesLaterais" value="World of Warcraft"> 
-					<input type="button" class="BotoesLaterais" value="Overwatch"> 
-					<input type="button" class="BotoesLaterais" value="PlayerUnknown?s Battleground"> 
-					<input type="button" class="BotoesLaterais" value="Heroes of the Storm"> 
-					<input type="button" class="BotoesLaterais" value="World of Tanks"> 
-					<input type="button" class="BotoesLaterais" value="Rocket League">
-
-					<input type="button" class="TituloBotoes" value="Últimos lançamentos"> 
-
-					<input type="button" class="BotoesLaterais" value="League of Legends"> 
-					<input type="button" class="BotoesLaterais" value="Hearthstone: Heroes of Warcraft"> 
-					<input type="button" class="BotoesLaterais" value="Minecraft"> 
-					<input type="button" class="BotoesLaterais" value="Counter Strike: Global Offensive"> 
-					<input type="button" class="BotoesLaterais" value="World of Warcraft"> 
-					<input type="button" class="BotoesLaterais" value="Overwatch"> 
-					<input type="button" class="BotoesLaterais" value="PlayerUnknown?s Battleground"> 
-					<input type="button" class="BotoesLaterais" value="Heroes of the Storm"> 
-					<input type="button" class="BotoesLaterais" value="World of Tanks"> 
-					<input type="button" class="BotoesLaterais" value="Rocket League">
-					
-				</center>
-
-			</div> -->
-
-		</aside>
-
 		<section>
 
 			<div class="Secções">
@@ -252,7 +214,7 @@
 
 			<img src="MeuSite\Imagens\gmail.jpg" onclick="window.open('https://www.google.com.br/')" class="Rodaparedes" title="Gmail">
 
-			<p class="Autorais"> Tenho quase certeza que todos os nossos direitos de autoria estão rezervados em algum lugar a partir de um tempo. Os jogos aqui mostrados não são de nossa posse, caso queira reivindicar direitos autorais, favor entrar em contato. </p> 
+			<p class="Autorais"> Devemos um imenso agradecimento à Gabriel Silva Souza por nos ter ajudado em nosso site. Sem ele, nada disso aqui seria possível. Obrigado, Gabriel! </p> 
 
 		</footer>
 

@@ -93,15 +93,10 @@ label {
 
 }
 
-body {
-
-	background: url('C:/Users/cleiton/Desktop/Arquivos aleatórios/MeuSite/Imagens/background.jpg');
-
-}
-
-input[type=text], input[type=password], select {
+input[type=text], input[type=password], select, input[type=date] {
 
 	border: 1.3px solid black;
+	width: 180px;
 
 }
 

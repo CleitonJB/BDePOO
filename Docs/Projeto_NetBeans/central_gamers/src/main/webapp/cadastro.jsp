@@ -11,7 +11,7 @@
 
 	</head>
 
-	<body align="center">
+	<body style="background: url('MeuSite/Imagens/background.jpg');" align="center">
 
 		<div class="BarraSuperior">
 
@@ -53,7 +53,7 @@
 							   </td>
 							  </tr>
 							  <td>
-							    <label for="nome"> Username: </label>
+							    <label for="nome"> Nickname: </label>
 							   </td>
 							   <td align="left">
 							    <input type="text" name="username">
@@ -63,9 +63,7 @@
 							    <label> Nascimento: </label>
 							   </td>
 							   <td align="left">
-							    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
-							   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
-							   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+							    <input type="date">
 							   </td>
 							  </tr>
 							  <tr>
@@ -155,6 +153,14 @@
 							    <input type="text" name="cidade">
 							   </td>
 							  </tr>
+							  <tr>
+							   <td>
+							    <label for="país">Bairro: </label>
+							   </td>
+							   <td align="left">
+							    <input type="text" name="país">
+							   </td>
+							  </tr>
 							 </table>
 							</fieldset>
 
@@ -168,7 +174,7 @@
 							    <label for="imagem">Imagem de perfil:</label>
 							   </td>
 							   <td>
-							    <input type="file" name="foto" >
+							    <input type="file" name="imagem" >
 							   </td>
 							  </tr>
 							 </table>

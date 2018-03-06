@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="Login.css">
 
 	</head>
-	<body align="center">
+	<body style="background: url('MeuSite/Imagens/background.jpg');" align="center">
 
 		<div class="BarraSuperior">
 
@@ -60,7 +60,7 @@
 
 							<br />
 
-							<input type="submit" class="Botoes" value="Entrar">
+							<input type="submit" class="Botoes" value="Enviar">
 							<input type="reset" class="Botoes" value="Limpar">
 
 							<br/>

@@ -39,6 +39,11 @@ public class CadastroUsuario extends HttpServlet {
         user.setSenha(request.getParameter("senha"));
         user.setSobrenome(request.getParameter("sobrenome"));
         user.setUsername(request.getParameter("username"));
+        user.setPais(request.getParameter("pais"));
+        user.setEstado(request.getParameter("estado"));
+        user.setCidade(request.getParameter("cidade"));
+        user.setBairro(request.getParameter("bairro"));
+        
         
         try {
         System.out.println("SALVANDO USUARIO");

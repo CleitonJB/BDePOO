@@ -20,6 +20,20 @@ import javax.persistence.Id;
 public class usuario {
 
     /**
+     * @return the bairro
+     */
+    public String getBairro() {
+        return bairro;
+    }
+
+    /**
+     * @param bairro the bairro to set
+     */
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    /**
      * @return the pais
      */
     public String getPais() {
@@ -74,6 +88,7 @@ public class usuario {
     private String pais;
     private String estado;
     private String cidade;
+    private String bairro;
     
 
     /**
