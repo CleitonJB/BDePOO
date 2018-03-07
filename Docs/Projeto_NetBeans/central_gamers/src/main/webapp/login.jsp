@@ -12,7 +12,7 @@
 	</head>
 	<body style="background: url('MeuSite/Imagens/background.jpg');" align="center">
 
-		<div class="BarraSuperior">
+            <div class="BarraSuperior" style="width: 1440px;">
 
 			<img src="MeuSite\Logo\Logo.png" Onclick="window.open('index.jsp')" class="Logo" title="Bem vindo ao Central Gamers!" />
 
