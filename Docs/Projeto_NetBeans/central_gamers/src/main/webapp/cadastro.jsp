@@ -181,7 +181,7 @@
 							</fieldset>
 
 							<br />
-							<input type="submit" class="Botoes">
+							<input type="submit" class="Botoes"value="Enviar">
 							<input type="reset" class="Botoes" value="Limpar">
 
 							<br/>
